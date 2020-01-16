@@ -1,7 +1,7 @@
 Package: s2net
 Type: Package
 Title: The Generalized Semi-Supervised Elastic-Net
-Version: 1.0
+Version: 1.0.1
 Date: 2020-01-08
 Authors@R: c(person("Juan C.",
            "Laria",,
@@ -23,9 +23,9 @@ URL: https://github.com/jlaria/s2net
 BugReports: https://github.com/jlaria/s2net/issues
 Encoding: UTF-8
 NeedsCompilation: yes
-Packaged: 2020-01-11 13:17:07 UTC; juank
+Packaged: 2020-01-15 08:16:47 UTC; juank
 Author: Juan C. Laria [aut, cre] (<https://orcid.org/0000-0001-7734-9647>),
   Line H. Clemmensen [aut]
 Maintainer: Juan C. Laria <juank.laria@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-01-13 17:10:06 UTC
+Date/Publication: 2020-01-16 13:20:06 UTC

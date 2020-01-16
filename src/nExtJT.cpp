@@ -33,7 +33,7 @@
 // Soft-threshold operator
 arma::vec soft_thresh(const arma::vec & z, double l){
   arma::vec S = arma::vec(z.n_elem);
-  for(int i=0; i<z.n_elem; i++){
+  for(unsigned int i=0; i<z.n_elem; i++){
     if(std::abs(z[i]) <= l){
       S(i) = 0;
     }else{
@@ -82,7 +82,7 @@ private:
     bool use_default;
 
 public:
-    s2net(const Rcpp::List & s2Data, int loss);
+    s2net(const Rcpp::List s2Data, int loss);
     void fit_fast();
     void fit(const arma::vec & params, int frame, int proj);
     void setupFista(const Rcpp::List & s2Fista);
@@ -105,7 +105,7 @@ public:
 };
 
 
-s2net::s2net(const Rcpp::List & s2Data, int loss)
+s2net::s2net(const Rcpp::List s2Data, int loss)
 {
     this->xL = Rcpp::as<arma::mat>(s2Data["xL"]);
     this->yL = Rcpp::as<arma::mat>(s2Data["yL"]);
@@ -240,7 +240,7 @@ void s2net::optimizeFista(){
     double t = FISTA_T0;
     double l_new = 1;
     double l_old = 1;
-    int iter = 0;
+    //int iter = 0;
     
     arma::vec theta_new = beta;
     arma::vec theta_old;
@@ -299,7 +299,7 @@ void s2net::optimizeFista_user(){
     double t = Arg_FISTA_T0;
     double l_new = 1;
     double l_old = 1;
-    int iter = 0;
+    //int iter = 0;
     
     arma::vec theta_new = beta;
     arma::vec theta_old;
@@ -407,7 +407,7 @@ arma::vec s2net::predict(const arma::mat & newX, int type){
 RCPP_MODULE(Rcpp_s2net_export){
     Rcpp::class_<s2net>("s2net")
     
-    .constructor<const Rcpp::List &, int>()
+    .constructor<const Rcpp::List , int>()
 
     .method("fit", &s2net::fit, "Computes beta using FISTA")
     

@@ -1,4 +1,4 @@
-5d32d284610e96ccaa76644a9393f6ef *DESCRIPTION
+68377617b128a7c7573d2629f2f057e8 *DESCRIPTION
 afa8dc1602e3cf53b93e59719c0f63e8 *NAMESPACE
 8772c67fcc4513cd527551e423a5b102 *R/args.R
 b3be4c03a9053245eb5572a897d69397 *R/extJT.R
@@ -6,14 +6,14 @@ b3be4c03a9053245eb5572a897d69397 *R/extJT.R
 6ef4ddee80fbf460ca9d0b294c905347 *R/s2Data.R
 589b55905d56acfc76b038cf40fcf4ea *R/simulate.R
 d242fe6a99cbd33814987cb80adba88d *R/zzz.R
-0ba568cce89c93b9a9d79a5a89a2d7bd *README.md
-ad71772d8722bbba69d23bfa188a9d47 *build/partial.rdb
+0c72bf0e4f6d1a3c81e912f573689051 *README.md
+9134343777e13c0ac824712c57b3fb2c *build/partial.rdb
 1fc5b17db53578f7e427c641727a0c64 *build/vignette.rds
 b35281d1e0f0dc56100a58301f2b8af8 *data/auto_mpg.rdata
 9399ec3c95b94b1b800d4e194b42b81c *inst/CITATION
 c753524c39149406dfd83fccfc0e4661 *inst/doc/supervised.R
-b7321555d5f888d0cecb34d2077d5dc7 *inst/doc/supervised.Rmd
-85d29b802bde501c875ccd30e6a579d9 *inst/doc/supervised.html
+c23c84887b2836adeb3728816f5047fe *inst/doc/supervised.Rmd
+69ff878cd27d8492fc02b96bbe7aa7cc *inst/doc/supervised.html
 fc51571d20caa8d881f2d49d6561515b *man/data_auto_mpg.Rd
 497481289d4efcd57d3ea3e025e7076b *man/figures/s2net.png
 14e33f89a0b46cda96adefcaa952e661 *man/figures/sim_extra.jpg
@@ -32,9 +32,9 @@ def2657c1ee24f0f73339d32e203df18 *man/simulate_groups.Rd
 3b99f76ab056c3126b695b6d9d29740a *src/Makevars
 61059660eb073d93e00e8ee054237071 *src/Makevars.win
 4245466bf0fd44708f7f721ad2ac6c12 *src/RcppExports.cpp
-77b3f5046825225ef718a0971b152039 *src/losses.h
-0bb137a38704cf6220a7e99eb9505264 *src/nExtJT.cpp
+2f9b84bdb2d6c917a2e06348d8cbe216 *src/losses.h
+b0db39a73e9163c41e427010205f82ca *src/nExtJT.cpp
 dfe6c206fcd875e177868acea34e64e9 *src/transformations.h
 d1aacea49783400f990cde53d1b616a6 *tests/testthat.R
 c3dae460d1dc2909ed409d1a90b64827 *tests/testthat/test.optimization.R
-b7321555d5f888d0cecb34d2077d5dc7 *vignettes/supervised.Rmd
+c23c84887b2836adeb3728816f5047fe *vignettes/supervised.Rmd
