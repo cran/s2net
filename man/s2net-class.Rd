@@ -4,6 +4,7 @@
 \alias{Rcpp_s2net-class}
 \alias{Rcpp_s2net}
 \alias{_rcpp_module_boot_Rcpp_s2net_export}
+\alias{.__Mod__Rcpp_s2net_export}
 \alias{predict,Rcpp_s2net-method}
 
 \title{Class \code{s2net}}
